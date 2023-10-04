@@ -1,0 +1,14 @@
+Here is the request of the employee, it contains all the test scores
+And also a message from the employee: 
+
+Employee answered with yes on Somatization Scale!
+Employee answered with yes on ObsessiveCompulsiveDisorder Scale!
+Employee answered with yes on Interpersonal Sensitivity Scale!
+Employee answered with yes on Depression Scale!
+Employee answered with yes on Anxiety Scale!
+Employee answered with yes on Hostility Scale!
+Employee answered with yes on Phobic Anxiety Scale!
+Employee answered with yes on Paranoid Ideation Scale!
+Employee answered with yes on Psychoticism Scale!
+Employee also stated that: 
+not really

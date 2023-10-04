@@ -1,0 +1,10 @@
+1.Employee's reason for being here: 
+I need help 
+
+2.Private information regarding employee: 
+Name: AnghelBogdan 
+Age: 23 
+Social Security Number: 241413 
+Address: Liviu8 
+Email: enghel.bogdan@gmail.com 
+Marital Status: no 

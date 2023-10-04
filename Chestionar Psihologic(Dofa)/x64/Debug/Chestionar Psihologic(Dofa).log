@@ -1,0 +1,12 @@
+﻿  Chestionar Psihologic(Dofa).cpp
+  EmployeeInformationDefinition.cpp
+  QuestionsAndConsoleInputDefinitions.cpp
+  RequestHelp.cpp
+  ResultsOfEmployee.cpp
+  SaveInfoDefinition.cpp
+  SclTestAndOtherMethodsDefitinions.cpp
+  hasFileOppened.cpp
+  isInputValidDefinition.cpp
+  Generating Code...
+D:\C++ projects on D\Chestionar Psihologic(Dofa)\Chestionar Psihologic(Dofa)\Header.h(131): warning C4715: 'Supervisor::LeadSupervisor': not all control paths return a value
+  Chestionar Psihologic(Dofa).vcxproj -> D:\C++ projects on D\Chestionar Psihologic(Dofa)\x64\Debug\Chestionar Psihologic(Dofa).exe
