@@ -72,17 +72,17 @@ public:
 		std::string supervisor_last_input = "";
 		if (is_employee_ok) {//if is_employee_ok = true, print this messages to console
 			system("cls");
-			cout << "Since the employee is ok, according to the company procedure \n";
-			cout << "Here is what you need to do next: \n";
-			cout << "The employee's drop in performance cannot be explained \n";
-			cout << "by the psychological evaluation, this means that the problem might\n";
-			cout << "not be a psychological one\n";
-			cout << "It is recommended that you have a discussion one on one with the employee\n";
-			cout << "And talk about what would be the real reason why he/she cannot perform as well as before\n";
+			cout << "Since the employee is ok, according to the company procedure \n\n";
+			cout << "Here is what you need to do next: \n\n";
+			cout << "The employee's drop in performance cannot be explained \n\n";
+			cout << "by the psychological evaluation, this means that the problem might\n\n";
+			cout << "not be a psychological one\n\n";
+			cout << "It is recommended that you have a discussion one on one with the employee\n\n";
+			cout << "And talk about what would be the real reason why he/she cannot perform as well as before\n\n";
 
-			cout << "You have two options: You can either talk to the employee\n";
-			cout << "Or ask for the help of another supervisor\n";
-			cout << "1.Talk to the employee, 2.Pass the case to someone else\n";
+			cout << "You have two options: You can either talk to the employee\n\n";
+			cout << "Or ask for the help of another supervisor\n\n";
+			cout << "1.Talk to the employee, 2.Pass the case to someone else\n\n";
 			std::cin >> supervisor_input;  //taking user input
 
 			//depending on the user input, one of these cases will be executed
@@ -119,11 +119,11 @@ public:
 		}
 		if (!is_employee_ok) {  //if this variable is false, print these messages to the user
 			system("cls");
-			cout << "Due to confidential reasons, we cannot share more about the employee's situation\n";
-			cout << "However only one thing is allowed to be said, the employee is suffering from something real\n";
-			cout << "This is why there was a drop in performance, now the employee was given the option\n";
-			cout << "To ask for help, so that he/she can get back on track\n";
-			cout << "Thank you for using dofa press 1 to exit\n";
+			cout << "Due to confidential reasons, we cannot share more about the employee's situation\n\n";
+			cout << "However only one thing is allowed to be said, the employee is suffering from something real\n\n";
+			cout << "This is why there was a drop in performance, now the employee was given the option\n\n";
+			cout << "To ask for help, so that he/she can get back on track\n\n";
+			cout << "Thank you for using dofa press 1 to exit\n\n";
 			std::cin >> exit; //here we exit the program
 
 			return ""; //returing an empty string at the end

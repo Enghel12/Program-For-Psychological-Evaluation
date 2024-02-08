@@ -64,7 +64,7 @@ int main()
 
 	//The program continues here only if the user if a supervisor, special input will be required
 	if (user_choice == 446) { //if special input is provided, allow the user to access Supervisor Class
-		cout << "Supervisord access granted!\n";
+		cout << "Supervisor access granted!\n";
 		cout << "Press 1 to see the result of the examination\n";
 		checkInteger(supervisor_input);
 		system("cls");

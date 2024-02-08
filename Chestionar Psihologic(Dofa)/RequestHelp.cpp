@@ -15,14 +15,14 @@ void Employee::RequestHelp(std::vector<std::string> &IllnessesNames) {
 	std::vector<std::string> ContentForSupervisor;
 
 	//printing a large message for the user
-	cout << " Thank you for requesting help, what you type here will be saved and sent to\n"
-		" an appropriate specialist, depending on the issue\n"
-		" You will be asked 9 questions, each question referring to the score obtained on each\n"
-		" Scl scale. If your score on a scale reflects that you might be suffering from\n"
-		" something, type yes, if not, just type no. After this, the file with your responses\n"
-		" will be sent to a specialist and you will soon be contacted, press 1 to begin or 2 to exit\n";
+	cout << " Thank you for requesting help, what you type here will be saved and sent to a mental health professional\n\n";
+	cout << " You will be asked 9 questions, each question referring to the score obtained on each SCL scale\n\n";
+	cout << " This is because the mental health professional needs to learn what the test results are\n\n";
+	cout << " On each scale, type yes if you obtained a score that reflects an issue\n\n";
+	cout << " Or type no if you obtained a normal score on that scale\n\n";
+
+	cout << " Press any number to begin: \n";
 	    
-	cout << " ";   //using this cout to alling the user input with the text from above
 	isInputValid(user_choice);
 	system("cls");
 	cout << "\nSo tell us which symptomatic dimension score concluded that you might have a mental health condition\n\n";

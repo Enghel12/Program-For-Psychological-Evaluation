@@ -79,8 +79,10 @@ void Employee::ResultsOfEmployee(std::vector<double> &FinalScores) {
 	}
 	AnotherFile.close();
 
+	cout << "\n\nNow please remember the results of the test \n";
+	cout << "Or take a picture of the results with your phone because you might need them later\n\n";
 
-	cout << "Press 1 to continue ";
+	cout << "After you finished, press 1 to continue ";
 	isInputValid(user_choice);
 	system("cls");
 
